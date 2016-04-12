@@ -1,0 +1,24 @@
+{
+  "name": "jquery-serialize-object",
+  "version": "1.0.0",
+  "description": "Advanced serializer that serialize a form data to an object",
+  "main": "src/jquery-serialize-object.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobicarmel/jquery-serialize-object.git"
+  },
+  "author": "Kobi Zaltzberg <jzaltzberg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cobicarmel/jquery-serialize-object/issues"
+  },
+  "homepage": "https://github.com/cobicarmel/jquery-serialize-object#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
