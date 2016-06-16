@@ -1,5 +1,5 @@
 /*!
- * jQuery Serialize Object v1.0.0
+ * jQuery Serialize Object v1.0.1
  * https://github.com/cobicarmel/jquery-serialize-object/
  *
  * Copyright Kobi Zaltzberg

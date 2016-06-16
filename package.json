@@ -1,6 +1,6 @@
 {
   "name": "jquery-serialize-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advanced serializer that serialize a form data to an object",
   "main": "src/jquery-serialize-object.js",
   "scripts": {
