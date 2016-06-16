@@ -14,8 +14,8 @@
 			data = {};
 
 		var parseObject = function( dataContainer, key, value ) {
-			var isArrayKey = /\[]/.test( key ),
-				isObjectKey = /\[.+]/.test( key ),
+			var isArrayKey = /^[^\[\]]+\[]/.test( key ),
+				isObjectKey = /^[^\[\]]+\[[^\[\]]+]/.test( key ),
 				keyName = key.replace( /\[.*/, '' );
 
 			if ( isArrayKey ) {
@@ -40,7 +40,7 @@
 				}
 			}
 
-			var nextKeys = key.match( /\[([^\[\]]+)]/g );
+			var nextKeys = key.match( /\[[^\[\]]*]/g );
 
 			nextKeys[0] = nextKeys[0].replace( /\[|]/g, '' );
 
